@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2020",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
